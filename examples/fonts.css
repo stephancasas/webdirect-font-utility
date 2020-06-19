@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'JetBrainsMono-Regular';
+    src: url('./fonts/JetBrainsMono-Regular.woff') format('woff'),
+      /* Modern Browsers */ url('./fonts/JetBrainsMono-Regular.woff2')
+        format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'JetBrainsMono-Bold';
+  
+    src: url('./fonts/JetBrainsMono-Bold.woff') format('woff'),
+      /* Modern Browsers */ url('./fonts/JetBrainsMono-Bold.woff2')
+        format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }

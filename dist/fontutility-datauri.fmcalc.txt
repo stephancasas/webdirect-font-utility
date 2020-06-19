@@ -1,0 +1,5 @@
+"data:text/html,<!DOCTYPE html><html> <head> <title>FM WebDirect Font Utility</title> <script>let webd=parent.document,webdScripts=webd.scripts[0],webfont=webd.createElement('script');webfont.src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js',webfont.async=!0,webdScripts.parentNode.insertBefore(webfont,webdScripts);let wait=setInterval(function(){void 0!==parent.WebFont&&(clearInterval(wait),parent.WebFont.load({custom:{urls:['" &
+
+$$webd_font_util_css &
+
+"']}}))},1); </script> </head> <body> WebDirect Font Utility by Stephan Casas </body></html>"

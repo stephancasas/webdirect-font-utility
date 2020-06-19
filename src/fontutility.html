@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FM WebDirect Font Utility</title>
+    <script>
+      let webd = parent.document;
+      let webdScripts = webd.scripts[0];
+
+      let webfont = webd.createElement('script');
+      webfont.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      webfont.async = true;
+
+      webdScripts.parentNode.insertBefore(webfont, webdScripts);
+
+      let wait = setInterval(function () {
+        if (typeof parent.WebFont == 'undefined') return;
+        clearInterval(wait);
+        parent.WebFont.load({
+          custom: {
+            //   EXAMPLE FONT, 'JetBrains Mono' -- replace with your own CSS
+            urls: ['https://static.edgedynamics.net/webdirect-font-utility-demo/fonts.css']
+          }
+        });
+      }, 1);
+    </script>
+  </head>
+  <body>
+    WebDirect Font Utility by Stephan Casas
+  </body>
+</html>
