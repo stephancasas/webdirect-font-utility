@@ -16,7 +16,7 @@ Before the utility can be used, the fonts you intend to use need to be uploaded 
 
 On the FileMaker Server host system, copy the contents of the `.zip` file you received from [font-converter.net](https://www.font-converter.net/) to the directory that applies to your installation:
 *  **macOS**: `/Library/FileMaker Server/HTTPServer/htdocs/httpsRoot`
-*  **Windows**: *I have no idea, but if someone wants to tell me, I'll update the README doc.*
+*  **Windows**: `%PROGRAMFILES%\FileMaker\FileMaker Server\HTTPServer\conf`
    > It's super-important to ensure that you put the files into the **httpsRoot** and not the insecure root. WebDirect is served over HTTPS, so we need that to match.
 
    > If you anticipate using this utility in more than one solution, you may want to consider adopting an organized structure for your fonts in this directory. So long as you keep special chars and whitespace out of the folder names, you are free to organize as much or little as you'd like.
